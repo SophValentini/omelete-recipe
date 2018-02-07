@@ -1,1 +1,1 @@
-# omelete-recipe
+# omelette-recipe
