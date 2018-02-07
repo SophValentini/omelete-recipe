@@ -6,6 +6,9 @@ h1{
   font-family: fantasy;
   font-size: 40px
 }
+img {
+  max-width: 100%
+}
 #main{
   width: 90%;
   margin: 50px auto;
