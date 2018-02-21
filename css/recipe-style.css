@@ -1,33 +1,95 @@
 body{
   background-color: black;
   background-image: url(http://sciencerocks.info/wp-content/uploads/2016/09/modern-concept-white-marble-background-marble-iphone-wallpaper-free-marble-wallpaper-7.jpg);
+  border: 1em solid #999;
 }
 h1{
-  font-family: fantasy;
-  font-size: 40px
+  font-family: "Copperplate",fantasy;
+  font-size: 40px;
+  margin: .7em;
+  margin-bottom: 0;
 }
+/*  flexable image */
 img {
-  max-width: 100%
+  max-width: 100%;
+  padding: 1em;
 }
-#main{
-  width: 90%;
-  margin: 50px auto;
-  border: 10px grey;
+.center{
+  display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
 }
-#top, #bottom, #left, #right {
-	background: grey;
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 15px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
+main {
+  /*padding: 3em;*/
+  padding: 5%;
+  /* border: 1em solid #999; */
+}
+ul,ol,div {
+  font-family: monospace;
+  font-size: 1.25em ;
+  line-height: 1.2;
+  letter-spacing: .03em;
+  word-spacing: -.03em;
+  color: #000;
+}
+h2{
+  font-family: monospace;
+  font-size: 2em;
+  font-variant: small-caps;
+  margin-bottom:0;
+  margin-top:0;
 
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
+}
+/*/+ --- links ---+/*/
+a {
+color: #000;
+}
+a:hover,
+a:focus {
+color: #000
+}
+/*---- nav ----*/
+nav{
+padding: 1em;
+border-bottom: 1em solid #999;
+}
+nav h2{
+  margin: 0;
+}
+nav ul{
+list-style: none;
+padding-top: .5em;
+padding-left:0;
+margin:0;
+text-align: center;
+}
+nav li{
+display: inline;
+/*margin: 0 -.1em;*/
+}
+nav a {
+  display: inline-block;
+border: 1px solid #000;
+border-radius: .5em;
+padding: .7em;
+margin-top: .7em;
+}
+nav a:hover,
+nav a:focus {
+    background-color: #fff;
+}
+/*layout for wider screens----*/
+
+@media (min-width: 60em) {
+    /*main {
+      /*border: 1px dashed #000;*/
+      /*overflow: hidden;
+      }*/
+    #float,
+    #directions {
+      float: left;
+      width: 50%;
+    }
+
+}
