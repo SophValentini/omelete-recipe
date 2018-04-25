@@ -20,6 +20,11 @@ img {
       margin-right: auto;
       width: 90%;
 }
+figcaption{
+  margin: 0;
+  text-align: center;
+  color: #999;
+}
 main {
   /*padding: 3em;*/
   padding: 5%;
